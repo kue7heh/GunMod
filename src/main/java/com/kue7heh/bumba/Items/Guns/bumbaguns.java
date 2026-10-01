@@ -44,7 +44,7 @@ public class bumbaguns {
             ))
             .equipSound(PlayableSound.of(SoundRegistry.BLUNDERBUSS_RELOAD_CLOSE, 0.75f, 0.9f, 1.1f))
             .build();
-    public static final GunProfile M1 = GunProfile.builder(8, 5, 50, FireMode.SEMI, ArmPoseKind.RIFLE,
+    public static final GunProfile M1 = GunProfile.builder(8, 5, 45, FireMode.SEMI, ArmPoseKind.RIFLE,
                     ShotComponentTemplate.builder(12, 1, 0.08, 5, RecoilProfile.of(20f, .35f, 2f, 999))
                             .projectileCount(1)
                             .gunshotSound(
